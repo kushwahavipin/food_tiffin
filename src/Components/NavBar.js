@@ -6,7 +6,7 @@ const NavBar = () => {
     <>
       <section id="Home">
         <nav>
-          <div class="logo">
+          <div className="logo">
             <img src={logo} />
           </div>
 
@@ -31,10 +31,10 @@ const NavBar = () => {
             </li>
           </ul>
 
-          <div class="icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+          <div className="icon">
+            <a href=""><i className="fa-solid fa-magnifying-glass"></i></a>
+            <i className="fa-solid fa-heart"></i>
+            <i className="fa-solid fa-cart-shopping"></i>
           </div>
         </nav>
       </section>
