@@ -7,7 +7,7 @@ const NavBar = () => {
       <section id="Home">
         <nav>
           <div className="logo">
-            <img src={logo} />
+            <img src={logo} alt="Logo"/>
           </div>
 
           <ul>
@@ -32,7 +32,7 @@ const NavBar = () => {
           </ul>
 
           <div className="icon">
-            <a href=""><i className="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i className="fa-solid fa-magnifying-glass"></i></a>
             <i className="fa-solid fa-heart"></i>
             <i className="fa-solid fa-cart-shopping"></i>
           </div>
