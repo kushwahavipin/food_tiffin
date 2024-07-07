@@ -54,7 +54,7 @@ const HomePage = () => {
     </p>
 
     <div className="main_btn">
-        <a href="#">Order Now</a>
+        <a href="#order">Order Now</a>
         <i className="fa-solid fa-angle-right"></i>
     </div>
 
