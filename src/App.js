@@ -1,12 +1,17 @@
-import React from 'react';
-import NavBar from './Components/NavBar';
+import React from "react";
+import HomePage from "./Components/HomePage";
+import Footer from "./Components/Footer";
+import LoginPage from "./Components/LoginPage";
+
 
 const App = () => {
   return (
     <>
-     <NavBar/>
+      <HomePage />
+      <LoginPage/>
+      <Footer/>
     </>
   );
-}
+};
 
 export default App;
