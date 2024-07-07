@@ -10,7 +10,7 @@ const HomePage = () => {
     <section id="Home">
     <nav>
         <div className="logo">
-            <img src={logo}/>
+            <img src={logo} alt='logo'/>
         </div>
 
         <ul>
@@ -40,7 +40,7 @@ const HomePage = () => {
         </div>
 
         <div className="main_image">
-            <img src={MainPage}/>
+            <img src={MainPage} alt='main page image'/>
         </div>
 
     </div>
